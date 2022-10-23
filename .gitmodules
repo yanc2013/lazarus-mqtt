@@ -1,0 +1,3 @@
+[submodule "bkutils"]
+	path = bkutils
+	url = https://github.com/Andry-Smirnov/bkutils.git
