@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="bkutils"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <CodeGeneration>
+        <SmartLinkUnit Value="True"/>
+      </CodeGeneration>
+    </CompilerOptions>
+    <Version Minor="1"/>
+    <Files Count="16">
+      <Item1>
+        <Filename Value="base32.pas"/>
+        <UnitName Value="Base32"/>
+      </Item1>
+      <Item2>
+        <Filename Value="errormsg.pas"/>
+        <UnitName Value="ErrorMsg"/>
+      </Item2>
+      <Item3>
+        <Filename Value="logging.pas"/>
+        <UnitName Value="Logging"/>
+      </Item3>
+      <Item4>
+        <Filename Value="rbtree.pas"/>
+        <UnitName Value="rbtree"/>
+      </Item4>
+      <Item5>
+        <Filename Value="buffers.pas"/>
+        <UnitName Value="Buffers"/>
+      </Item5>
+      <Item6>
+        <Filename Value="tempfiles.pas"/>
+        <UnitName Value="TempFiles"/>
+      </Item6>
+      <Item7>
+        <Filename Value="alarms.pas"/>
+        <UnitName Value="alarms"/>
+      </Item7>
+      <Item8>
+        <Filename Value="passwordman.pas"/>
+        <UnitName Value="passwordman"/>
+      </Item8>
+      <Item9>
+        <Filename Value="streamutils.pas"/>
+        <UnitName Value="streamutils"/>
+      </Item9>
+      <Item10>
+        <Filename Value="binarytree.pas"/>
+        <UnitName Value="binarytree"/>
+      </Item10>
+      <Item11>
+        <Filename Value="btree.pas"/>
+        <UnitName Value="btree"/>
+      </Item11>
+      <Item12>
+        <Filename Value="crypto.pas"/>
+        <UnitName Value="Crypto"/>
+      </Item12>
+      <Item13>
+        <Filename Value="diffiehellman.pas"/>
+        <UnitName Value="DiffieHellman"/>
+      </Item13>
+      <Item14>
+        <Filename Value="rand.pas"/>
+        <UnitName Value="Rand"/>
+      </Item14>
+      <Item15>
+        <Filename Value="bkutilsreg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="bkutilsreg"/>
+      </Item15>
+      <Item16>
+        <Filename Value="whatsmyip.pas"/>
+        <UnitName Value="whatsmyip"/>
+      </Item16>
+    </Files>
+    <RequiredPkgs Count="5">
+      <Item1>
+        <PackageName Value="laz_synapse"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LazUtils"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="dcpcrypt"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="FCL"/>
+      </Item5>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>
