@@ -47,13 +47,13 @@ This component is released under the GNU LGPL license agreement. You may share i
 6. Clean up and Build Apps\MQTTServerCLI\MQTTServerCLI.lpr
 
 
-## Run Error
+## Run (Error List)
 1. message: Unable to initialize OpenSSL library, please Check your OpenSSL installation.
    - On windows you should install OpenSSL librarys
    - http://www.openssl.org/related/binaries.html
    - If installer doesn't copy libeay32.dll and ssleay32.dll to Windows\System32 folder then you should do this manually
 
 
-## Other
-lnet: https://github.com/almindor/lnet
-delphi-mqtt: https://github.com/pjde/delphi-mqtt(ICS)
+## Other Resouces
+- lnet  https://github.com/almindor/lnet
+- delphi-mqtt(ICS)  https://github.com/pjde/delphi-mqtt
