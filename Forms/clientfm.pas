@@ -152,7 +152,7 @@ begin
       Client.KeepAlive           := MQTTConnectDlg.edKeepAlive.Value;
       Client.WillMessage.Enabled := MQTTConnectDlg.cbWillMessageEnabled.Checked;
       Client.WillMessage.Topic   := MQTTConnectDlg.edTopic.Text;
-      Client.WillMessage.Message := MQTTConnectDlg.edMessage.Text;
+      //Client.WillMessage.Message := MQTTConnectDlg.edMessage.Text;
       Client.WillMessage.QOS     := TMQTTQOSType(MQTTConnectDlg.cbQOS.ItemIndex);
       Client.WillMessage.Retain  := MQTTConnectDlg.cbRetain.Checked;
 

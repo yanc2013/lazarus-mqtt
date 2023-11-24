@@ -34,3 +34,14 @@ The documentation is written in markdown and is [available in the docs directory
 ## License
 
 This component is released under the GNU LGPL license agreement. You may share it, extend it, or use it for any commercial purposes provided you share any improvements you make to the code. It is not necessary to distribute this source code with your binaries.
+
+
+## Build
+1. Compile&Install bkutils 0.1 (third-party\bkutils\bkutils.lpk)
+   - dcpcrypt 2.0.4.2          (third-party\DCPcrypt\dcpcrypt.lpk)
+   - laz_synapse 40.1          (third-party\synapse40.1\laz_synapse.lpk)
+2. Compile Inetvisual V0.6.5   (third-party\lnet-0.6.5\lazaruspackage\lnetvisual.lpk)
+3. Compile&Install mqttcomponents V0.9.4.101 (src\mqttcomponents.lpk)
+4. Clean up and Build Apps\MQTTServer\MQTTServerApp.lpr
+5. Clean up and Build Apps\MQTTClient\MQTTClientApp.lpr
+6. Clean up and Build Apps\MQTTServerCLI\MQTTServerCLI.lpr

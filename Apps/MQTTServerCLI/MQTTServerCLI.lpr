@@ -245,8 +245,8 @@ begin
     Server.RequireAuthentication := Ini.ReadBool('Server','RequireAuthentication',False);
     Server.AllowNullClientIDs := Ini.ReadBool('Server','AllowNullClientIDs',True);
     Server.StrictClientIDValidation := Ini.ReadBool('Server','StrictClientIDValidation',False);
-    Server.ResendPacketTimeout := Ini.ReadInteger('Server','ResetPacketTimeout',2);
-    Server.MaxResendAttempts := Ini.ReadInteger('Server','MaxResendAttempts',3);
+    //Server.ResendPacketTimeout := Ini.ReadInteger('Server','ResetPacketTimeout',2);
+    //Server.MaxResendAttempts := Ini.ReadInteger('Server','MaxResendAttempts',3);
     Server.MaxSubscriptionAge := Ini.ReadInteger('Server','MaxSubscriptionAge',1080);
     Server.MaxSessionAge := Ini.ReadInteger('Server','MaxSessionAge',1080);
 
